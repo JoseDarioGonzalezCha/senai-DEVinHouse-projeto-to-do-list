@@ -12,19 +12,20 @@
     <title>Lista de tarefas</title>
 </head>
 <body>
-    <header>
-        <h1>Lista de Tarefas</h1>
-    </header>
-    <main>
-        <form id="taskForm">
-            <input type="text" id="task" name="task" placeholder="Digite uma tarefa">
-            <button>Adicionar</button>
-        </form>
-        <div class="showTask">
-            
-        </div>
-    </main>
-
-    <script src="script.js"></script>
+    <div class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <main>
+            <form id="taskForm">
+                <input type="text" id="task" placeholder="Digite uma tarefa">
+                <button>Adicionar tarefa</button>
+                <p class="alert"></p>
+            </form>
+            <div class="contenTask"></div>
+        </main>
+    
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
